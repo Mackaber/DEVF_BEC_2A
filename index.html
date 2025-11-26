@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        p {
+           color: red; 
+        }
+
+        .verde {
+            color: green;
+        }
+
+        .naranja {
+            color: orange;
+        }
+
+        #verde {
+            color: green;
+        }
+
+        #naranja {
+            color: orange;
+        }
+
+        * {
+            color: black;
+        }
+
+        div.azul {
+            color: blue;
+        }
+
+        .block {
+            display: block;
+        }
+
+        .inline {
+            display: inline;
+        }
+
+        .inline-block {
+            display: inline-block;
+        }
+
+        .encima {
+            color:darkslategray;
+        }
+
+        .encima:hover {
+            color:yellow;
+        }
+    </style>
+
+</head>
+<body>
+
+    <h2>Selector con el nombre de la etiqueta</h2>
+
+    <p>Esto es una prueba</p>
+    <p>Esto es otra prueba</p>
+    <div>Esta es una prueba con div</div>
+
+    <h2>Selector con class</h2>
+
+    <div class="verde">Este texto debe ser color verde</div>
+    <div class="naranja">Este texto debe ser color naranja</div>
+    <section class="naranja">Este texto también debe ser color naranja</section>
+
+    <h2>Selector con id</h2>
+
+    <div id="verde">Este texto debe ser color verde</div>
+    <div id="naranja">Este texto debe ser color naranja</div>
+    <div id="naranja">Este texto NO debería ser color naranja</div>
+
+    <p>Class se puede usar para varios elementos. Id sólo DEBE usarse para uno solo</p>
+
+    <h2>Selectores específicos</h2>
+
+    <div class="azul">Este texto debe ser color azul</div>
+    <section class="azul">Este texto NO debería ser azul</section>
+    <div>Este texto TAMPOCO debería ser azul</div>
+
+    <h2>Display</h2>
+
+    <p>div ya se comporta con display:block por defecto <br>
+    span ya se comporta como display:inline por defecto</p>
+
+    <div>Este es un texto</div>
+    <div>Este es otro texto</div>
+    <span>Este es un texto sobre la misma linea</span>
+    <span>Este también</span>
+
+    <p>Ejemplos de block vs inline</p>
+
+    <div class="block">block</div><div class="block">block</div>
+    <div class="inline">inline</div>
+    <div class="inline">inline</div>
+    <div class="block">block</div>
+
+    <p>Ejemplos de inline solamente</p>
+    <div class="inline">inliiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiine</div>
+    <div class="inline">inliiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiine</div>
+    <div class="inline">inliiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiine</div>
+
+    <p>Ejemplos de inline-block</p>
+    <div class="block">bloooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooock</div>
+    <div class="inline-block">inline-bloooooooooooooooooooooooooooooock</div>     <div class="inline-block">inline-bloooooooooooooooooooooooooooooock</div> 
+    <div class="inline">inliiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiine</div><div class="inline">inliiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiine</div> <div class="inline-block">inline-bloooooooooooooooooooooooooooooock</div> 
+    <div class="block">block</div>
+
+    <h2>Ejemplo de pseudoclase</h2>
+
+    <div class="encima">Este elemento cambia de color si se pasa el cursor por encima</div>
+</body>
+</html>
