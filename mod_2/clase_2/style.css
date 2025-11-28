@@ -1,0 +1,33 @@
+.font-family {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+}
+
+.font-size {
+    font-size: 30px;
+}
+
+.font-style {
+    font-style: italic;
+}
+
+.font-weight {
+    font-weight: bold;
+}
+
+.color-y-fondo {
+    color: blue;
+    background-color: red;
+}
+
+.align-left {
+    text-align: left;
+}
+.align-right {
+    text-align: right;
+}
+.align-center {
+    text-align: center;
+}
+.align-justify {
+    text-align: justify;
+}
