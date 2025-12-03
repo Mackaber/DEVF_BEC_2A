@@ -1,0 +1,19 @@
+body {
+    background-color: #141414;
+}
+
+.card {
+    margin: 20px;
+    background-color: #1f1f1f;
+    height: 500px;
+    width: 240px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+#profile-image {
+    margin: 20px auto;
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+}

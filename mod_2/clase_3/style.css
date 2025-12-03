@@ -1,0 +1,32 @@
+.padre {
+    color: aqua;
+    font-weight: bold;
+}
+
+.hijo-especial {
+    color: crimson;
+}
+
+.ultima {
+    color: red;
+}
+
+.ultima {
+    color: blue;
+}
+
+#element-id {
+    background-color: coral;
+}
+
+.element-class {
+    background-color:darkturquoise;
+}
+
+section {
+    background-color: forestgreen;
+}
+
+.externo {
+    background-color: cornflowerblue;
+}
