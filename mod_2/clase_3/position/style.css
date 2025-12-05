@@ -1,0 +1,55 @@
+.padre {
+    background-color: darkgray;
+    height: 500px;
+    width: 500px;
+}
+
+.padre-absolute {
+    position: absolute;
+}
+
+.padre-relative {
+    position: relative;
+}
+
+.hijo-static {
+    background-color: aqua;
+    height: 50px;
+    width: 50px;
+    top: 20px;
+}
+
+.hijo-relative {
+    position: relative;
+    background-color: crimson;
+    height: 50px;
+    width: 50px;
+    top: 20px;
+}
+
+.hijo-absolute {
+    position: absolute;
+    background-color: hotpink;
+    height: 50px;
+    width: 50px;
+    top: 20px;
+}
+
+.fixed {
+    position: fixed;
+    background-color: black;
+    color: red;
+    height: 50px;
+    width: 200px;
+    top: 0px;
+    right: 0px;
+}
+
+.sticky {
+    position: sticky;
+    background-color:forestgreen;
+    color: firebrick;
+    height: 50px;
+    width: 200px;
+    top: 0px;
+}
