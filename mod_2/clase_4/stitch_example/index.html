@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Landing Page</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,typography"></script>
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&amp;display=swap" rel="stylesheet"/>
+<script>
+      tailwind.config = {
+        darkMode: "class",
+        theme: {
+          extend: {
+            colors: {
+              primary: "#ff5733", // Based on the small logo icon
+              "background-light": "#E9E9E7",
+              "background-dark": "#1C1C1E",
+            },
+            fontFamily: {
+              display: ["Space Grotesk", "sans-serif"],
+            },
+            borderRadius: {
+              DEFAULT: "0.5rem", // Default for consistency
+            },
+          },
+        },
+      };
+    </script>
+</head>
+<body class="bg-background-light dark:bg-background-dark font-display text-zinc-900 dark:text-zinc-100 antialiased">
+<div class="flex flex-col min-h-screen">
+<header class="w-full px-8 sm:px-12 py-6">
+<div class="container mx-auto flex justify-between items-center">
+<div class="flex items-center">
+<div class="w-6 h-6 mr-3">
+<svg fill="none" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+<path d="M43.75 0C19.5893 0 0 19.5893 0 43.75V100C0 89.2721 4.34598 79.0049 11.3629 71.9879C18.38 64.9709 28.6472 60.625 39.375 60.625H50C77.6142 60.625 100 38.2392 100 10.625C100 4.75546 95.2445 0 89.375 0H43.75Z" fill="#F94F37"></path>
+</svg>
+</div>
+<span class="text-2xl font-bold tracking-tight">Báchoo</span>
+</div>
+<nav class="flex items-center space-x-8">
+<a class="text-sm font-medium text-zinc-900 dark:text-zinc-100 hover:opacity-75 transition-opacity" href="#">Contact Us</a>
+<div class="flex items-center space-x-2">
+<a class="text-sm font-medium text-zinc-900 dark:text-zinc-100 hover:opacity-75 transition-opacity" href="#">Menu</a>
+<span class="w-5 h-5 bg-zinc-900 dark:bg-zinc-100 rounded-full"></span>
+</div>
+</nav>
+</div>
+</header>
+<main class="flex-grow flex items-center justify-center">
+<div class="container mx-auto px-8 sm:px-12 text-center">
+<h1 class="text-4xl md:text-5xl lg:text-6xl font-medium leading-tight max-w-4xl mx-auto">
+                    We are the aces up the sleeve in your visual communications game: from branding to web development, UX and beyond
+                </h1>
+</div>
+</main>
+<footer class="w-full py-6">
+</footer>
+</div>
+
+</body></html>

@@ -1,0 +1,18 @@
+.flex-parent {
+    display:flex;
+}
+
+.flex-child {
+    height: 50px;
+    width: 50px;
+    margin: 5px;
+    background-color: aquamarine;
+}
+
+.row {
+    flex-direction: row;
+}
+
+.column {
+    flex-direction: column;
+}
