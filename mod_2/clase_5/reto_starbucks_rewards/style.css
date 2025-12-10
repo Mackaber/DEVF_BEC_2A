@@ -1,0 +1,23 @@
+nav {
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #FFF;
+    border: dashed black 1px;
+}
+
+main {
+    display: flex;
+}
+
+aside {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #FFF;
+    border: dashed black 1px;
+    height: calc(-99px + 110vh);
+    flex-shrink: 1;
+    min-width: 75vh;
+}

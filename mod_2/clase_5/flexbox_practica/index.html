@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h2>Centrado horizonal y vertical</h2>
+    <div class="parent">
+        <div class="child">
+            Elemento hijo 1
+        </div>
+        <div class="child">
+            Elemento hijo 2
+        </div>
+    </div>
+    
+    <h2>Wrap vs No-Wrap vs WrapReverse</h2>
+
+    <h3>No-wrap</h3>
+
+    <div class="parent no-wrap">
+        <div class="child">
+            Elemento hijo 1
+        </div>
+        <div class="child">
+            Elemento hijo 2
+        </div>  
+         <div class="child">
+            Elemento hijo 3
+        </div>  
+    </div>
+
+    <h3>Wrap</h3>
+
+    <div class="parent wrap">
+        <div class="child">
+            Elemento hijo 1
+        </div>
+        <div class="child">
+            Elemento hijo 2
+        </div>  
+         <div class="child">
+            Elemento hijo 3
+        </div>  
+    </div>
+
+    <h3>Wrap Reverse</h3>
+
+    <div class="parent wrap-reverse">
+        <div class="child">
+            Elemento hijo 1
+        </div>
+        <div class="child">
+            Elemento hijo 2
+        </div>  
+         <div class="child">
+            Elemento hijo 3
+        </div>  
+    </div>
+
+    <h2>jestify-content</h2>
+
+
+    <h3>flex-start</h3>
+    <div class="parent-rect flex-start">
+        <div class="child-rect">
+            1
+        </div>
+        <div class="child-rect">
+            2
+        </div>
+        <div class="child-rect"> 
+            3
+        </div>
+        <div class="child-rect">
+            4
+        </div>
+        <div class="child-rect">
+            5
+        </div>
+    </div>
+
+    <h3>flex-end</h3>
+
+    <div class="parent-rect flex-end">
+        <div class="child-rect">
+            1
+        </div>
+        <div class="child-rect">
+            2
+        </div>
+        <div class="child-rect"> 
+            3
+        </div>
+        <div class="child-rect">
+            4
+        </div>
+        <div class="child-rect">
+            5
+        </div>
+    </div>
+    
+    <h3>center</h3>
+
+    <div class="parent-rect center">
+        <div class="child-rect">
+            1
+        </div>
+        <div class="child-rect">
+            2
+        </div>
+        <div class="child-rect"> 
+            3
+        </div>
+        <div class="child-rect">
+            4
+        </div>
+        <div class="child-rect">
+            5
+        </div>
+    </div>
+    
+    <h3>space-between</h3>
+
+    <div class="parent-rect space-between">
+        <div class="child-rect">
+            1
+        </div>
+        <div class="child-rect">
+            2
+        </div>
+        <div class="child-rect"> 
+            3
+        </div>
+        <div class="child-rect">
+            4
+        </div>
+        <div class="child-rect">
+            5
+        </div>
+    </div>
+    
+    <h3>space-around</h3>
+
+    <div class="parent-rect space-around">
+        <div class="child-rect">
+            1
+        </div>
+        <div class="child-rect">
+            2
+        </div>
+        <div class="child-rect"> 
+            3
+        </div>
+        <div class="child-rect">
+            4
+        </div>
+        <div class="child-rect">
+            5
+        </div>
+    </div>
+
+    <h2>align-items</h2>
+
+    <h3>stretch</h3>
+
+    <div class="parent-rect align-stretch">
+        <div class="child-rect">
+            1
+        </div>
+        <div class="child-rect">
+            2
+        </div>
+        <div class="child-rect"> 
+            3
+        </div>
+        <div class="child-rect">
+            4
+        </div>
+        <div class="child-rect">
+            5
+        </div>
+    </div>
+
+    <h3>flex-start</h3>
+
+    <div class="parent-rect align-start">
+        <div class="child-rect">
+            1
+        </div>
+        <div class="child-rect">
+            2
+        </div>
+        <div class="child-rect"> 
+            3
+        </div>
+        <div class="child-rect">
+            4
+        </div>
+        <div class="child-rect">
+            5
+        </div>
+    </div>
+
+    <h3>flex-end</h3>
+
+    <div class="parent-rect align-end">
+        <div class="child-rect">
+            1
+        </div>
+        <div class="child-rect">
+            2
+        </div>
+        <div class="child-rect"> 
+            3
+        </div>
+        <div class="child-rect">
+            4
+        </div>
+        <div class="child-rect">
+            5
+        </div>
+    </div>
+
+    <h3>center</h3>
+
+    <div class="parent-rect align-center">
+        <div class="child-rect">
+            1
+        </div>
+        <div class="child-rect">
+            2
+        </div>
+        <div class="child-rect"> 
+            3
+        </div>
+        <div class="child-rect">
+            4
+        </div>
+        <div class="child-rect">
+            5
+        </div>
+    </div>
+
+    <h3>baseline</h3>
+
+    <div class="parent-rect align-baseline">
+        <div class="child-rect">
+            1
+        </div>
+        <div class="child-rect">
+            2
+        </div>
+        <div class="child-rect parent-rect align-end"> 
+            <div class="child-rect">
+                3
+            </div>
+        </div>
+        <div class="child-rect">
+            4
+        </div>
+        <div class="child-rect">
+            5
+        </div>
+    </div>
+
+    <h2>align-self</h2>
+
+    <div class="parent-rect align-center">
+        <div class="child-rect">
+            1
+        </div>
+        <div class="child-rect">
+            2
+        </div>
+        <div class="child-rect align-self"> 
+            3
+        </div>
+        <div class="child-rect">
+            4
+        </div>
+        <div class="child-rect">
+            5
+        </div>
+    </div>
+
+    <h2>Flex Grow y Flex Shrink</h2>
+
+    <h3>Flex Grow</h3>
+
+    <div class="parent-rect align-center">
+        <div class="child-rect">
+            1
+        </div>
+        <div class="child-rect">
+            1
+        </div>
+        <div class="child-rect flex-grow"> 
+            1
+        </div>
+        <div class="child-rect">
+            1
+        </div>
+        <div class="child-rect">
+            1
+        </div>
+    </div>
+
+    <h3>Flex Shrink</h3>
+
+    <div class="parent-rect align-center">
+        <div class="child-rect">
+            2
+        </div>
+        <div class="child-rect">
+            2
+        </div>
+        <div class="child-rect flex-shrink"> 
+            1
+        </div>
+        <div class="child-rect">
+            2
+        </div>
+        <div class="child-rect">
+            2
+        </div>
+    </div>
+
+    <h3>Flex Shrink con porcentaje</h3>
+
+    <div class="parent-rect align-center shrink">
+        <div class="child-rect">
+            1
+        </div>
+        <div class="child-rect">
+            2
+        </div>
+        <div class="child-rect"> 
+            3
+        </div>
+    </div>
+
+</body>
+</html>
