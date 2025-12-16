@@ -1,19 +1,21 @@
 body {
-    display: flex;
-    min-height: 100vh;
     margin: 0px;
+    font:  1em 'Arial', sans-serif;
 }
 
 nav {
     display: flex;
+    min-width: 19vw;
     align-items: center;
     background-color: #EAEAEA;
 }
 
 main {
     display: flex;
-    flex-direction: column;
-    min-width: 80vw;
+    min-height: 100vh;
+    min-width: 99vw;
+    margin: 0px;
+    position: relative;
 }
 
 footer {
@@ -27,4 +29,156 @@ footer {
     justify-content: center;
     align-items: center;
     min-height: 100vh;
+    min-width: 80vw;
+}
+
+#cookies-disclaimer {
+    display: flex;
+    justify-content: center;
+    bottom: 0px;
+    width: 100vw;
+    z-index: 99;
+    position: fixed;
+    background-color: #bfffa1;
+}
+
+#content {
+    display: flex;
+    flex-direction: column;
+}
+
+/* Backdrop: mantener pero añadir transición suave */
+#modal-backdrop {
+    display: block;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 100;
+    transition: opacity 200ms ease;
+}
+
+/* Modal: contenedor centrado, tamaño controlado, aspecto profesional */
+#modal {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: min(540px, 90vw);
+    padding: 24px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.18);
+    z-index: 101;
+    transition: transform 160ms ease, opacity 160ms ease;
+    opacity: 1;
+    box-sizing: border-box;
+}
+
+/* Form layout */
+#modal form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+/* Headings and labels */
+#modal h2 {
+    margin: 0;
+    font-size: 1.25rem;
+    font-weight: 700;
+    color: #0f172a;
+}
+
+#modal label {
+    font-size: 0.9rem;
+    font-weight: 600;
+    color: #0f172a;
+}
+
+/* Inputs and textarea */
+#modal input[type="text"],
+#modal input[type="email"],
+#modal textarea {
+    width: 100%;
+    padding: 10px 12px;
+    border: 1px solid #e6e9ee;
+    border-radius: 8px;
+    font-size: 1rem;
+    color: #0b1220;
+    background-color: #fff;
+    box-sizing: border-box;
+    transition: box-shadow 120ms ease, border-color 120ms ease;
+}
+
+#modal textarea {
+    resize: vertical;
+    min-height: 96px;
+}
+
+/* Focus states */
+#modal input:focus,
+#modal textarea:focus {
+    outline: none;
+    border-color: #3b82f6;
+    box-shadow: 0 6px 20px rgba(59, 130, 246, 0.12);
+}
+
+/* Actions (botones) */
+#modal .actions {
+    display: flex;
+    gap: 8px;
+    justify-content: flex-end;
+    margin-top: 6px;
+}
+
+/* Botones: primario y secundario */
+#modal button {
+    padding: 8px 14px;
+    border-radius: 8px;
+    font-weight: 600;
+    font-size: 0.95rem;
+    border: none;
+    cursor: pointer;
+    transition: transform 80ms ease, filter 100ms ease, box-shadow 100ms ease;
+}
+
+#modal button[type="submit"] {
+    background-color: #2563eb;
+    color: #fff;
+    box-shadow: 0 6px 18px rgba(37, 99, 235, 0.18);
+}
+
+#modal button[type="button"] {
+    background-color: #f1f5f9;
+    color: #0b1220;
+}
+
+/* Hover / active */
+#modal button:hover {
+    filter: brightness(0.96);
+    transform: translateY(-1px);
+}
+
+#modal button:active {
+    transform: translateY(0);
+}
+
+/* Responsive tweaks */
+@media (max-width: 420px) {
+    #modal {
+        padding: 16px;
+        width: calc(100vw - 28px);
+        border-radius: 8px;
+    }
+
+    #modal h2 {
+        font-size: 1.1rem;
+    }
 }

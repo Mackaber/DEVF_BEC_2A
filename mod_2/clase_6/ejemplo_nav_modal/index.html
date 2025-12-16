@@ -7,36 +7,61 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <nav>
-      <ul>
-        <li>Acerca de...</li>
-        <li>Proyectos</li>
-        <li>Contacto</li>
-      </ul>
-    </nav>
     <main>
-      <!-- Componente de bienvenida (contenedor simple, sin estilo) -->
-      <section id="welcome-component" role="region" aria-label="Bienvenida">
-        <h1>Bienvenido</h1>
-        <p>Gracias por visitar la página.</p>
-      </section>
-      <footer>
-        <!-- Componente de despedida (contenedor simple, sin estilo) -->
-        <section
-          id="footer-component"
-          role="contentinfo"
-          aria-label="Pie de página"
-        >
-          <p>© 2025 — Gracias por tu visita.</p>
+      <nav>
+        <ul>
+          <li>Acerca de...</li>
+          <li>Proyectos</li>
+          <li>Contacto</li>
+        </ul>
+      </nav>
+      <div id="content">
+        <!-- Componente de bienvenida (contenedor simple, sin estilo) -->
+        <section id="welcome-component" role="region" aria-label="Bienvenida">
+          <h1>Bienvenido</h1>
+          <p>Gracias por visitar la página.</p>
         </section>
-      </footer>
+        <footer>
+          <!-- Componente de despedida (contenedor simple, sin estilo) -->
+          <section
+            id="footer-component"
+            role="contentinfo"
+            aria-label="Pie de página"
+          >
+            <p>© 2025 — Gracias por tu visita.</p>
+          </section>
+        </footer>
+      </div>
     </main>
-
-    <div class="cookies-disclaimer">
+    <div id="cookies-disclaimer">
       <p>
         Este sitio utiliza cookies para mejorar la experiencia de usuario.
         <a href="#">Leer m&aacute;s</a>
       </p>
+    </div>
+
+    <!-- Backdrop para el modal (sin estilos) -->
+    <div id="modal-backdrop" aria-hidden="true"></div>
+
+    <!-- Modal con un formulario sencillo (sin estilos) -->
+    <div id="modal" role="dialog" aria-modal="true" aria-label="Formulario de contacto">
+      <form id="modal-form" method="post" action="#">
+        <h2>Contáctanos</h2>
+
+        <label for="name">Nombre</label>
+        <input type="text" id="name" name="name" />
+
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" />
+
+        <label for="message">Mensaje</label>
+        <textarea id="message" name="message" rows="4"></textarea>
+
+        <div>
+          <button type="submit">Enviar</button>
+          <button type="button" id="modal-close">Cerrar</button>
+        </div>
+      </form>
     </div>
   </body>
 </html>
