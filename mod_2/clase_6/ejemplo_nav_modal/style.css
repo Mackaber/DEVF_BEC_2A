@@ -1,0 +1,30 @@
+body {
+    display: flex;
+    min-height: 100vh;
+    margin: 0px;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    background-color: #EAEAEA;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    min-width: 80vw;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+}
+
+#welcome-component {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
