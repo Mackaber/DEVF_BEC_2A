@@ -49,7 +49,7 @@ footer {
 
 /* Backdrop: mantener pero añadir transición suave */
 #modal-backdrop {
-    display: block;
+    display: none;
     position: fixed;
     top: 0px;
     left: 0px;
@@ -62,7 +62,7 @@ footer {
 
 /* Modal: contenedor centrado, tamaño controlado, aspecto profesional */
 #modal {
-    display: flex;
+    display: none;
     align-items: center;
     justify-content: center;
     position: fixed;
@@ -80,6 +80,12 @@ footer {
     box-sizing: border-box;
 }
 
+@media screen and (max-width: 700px) {
+    nav {
+        display: none;
+    }
+}
+ 
 /* Form layout */
 #modal form {
     width: 100%;

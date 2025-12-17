@@ -1,0 +1,84 @@
+html {
+    font-size: 16px;
+}
+
+.container {
+    font-size: 20px;
+}
+
+#px {
+    font-size: 10px;
+    height: 10px;
+    width: 10px;
+}
+
+#cm {
+    font-size: 10cm;
+    height: 10cm;
+    width: 10cm;
+}
+
+#mm {
+    font-size: 10mm;
+    height: 10mm;
+    width: 10mm;
+}
+
+#in {
+    font-size: 10in;
+    height: 10in;
+    width: 10in;
+}
+
+#pt {
+    font-size: 10pt;
+    height: 10pt;
+    width: 10pt;
+}
+
+#prc {
+    font-size: 10%;
+    height: 10%;
+    width: 10%;
+}
+
+#em {
+    font-size: 1em;
+    height: 1em;
+    width: 1em;
+}
+
+#rem {
+    font-size: 1rem;
+    height: 1rem;
+    width: 1rem;
+}
+
+#vw {
+    font-size: 1vw;
+    height: 1vw;
+    width: 1vw;
+}
+
+#vh {
+    font-size: 1vh;
+    height: 1vh;
+    width: 1vh;
+}
+
+#vmin {
+    font-size: 1vmin;
+    height: 1vmin;
+    width: 1vmin;
+}
+
+#vmax {
+    font-size: 1vmax;
+    height: 1vmax;
+    width: 1vmax;
+}
+
+.units {
+    background-color: aqua;
+}
+
