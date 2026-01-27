@@ -1,0 +1,25 @@
+/* Reset mínimo */
+* { box-sizing: border-box; }
+html, body { height: 100%; margin: 0; padding: 0; }
+
+/* Contenedor flex: 5 cajas pegadas sin márgenes */
+.flex-container {
+	display: flex;
+	flex-direction: row;
+	gap: 0;          /* sin separación entre cajas */
+	height: 200px;   /* ajustar según necesidad */
+}
+
+/* Cada caja ocupa el mismo espacio y no tiene margen */
+.box {
+	flex: 1 1 0;
+	margin: 0;
+	padding: 0;
+}
+
+/* Colores para distinguirlas */
+.b1 { background: #ff6b6b; }
+.b2 { background: #ffd93d; }
+.b3 { background: #6bcB77; }
+.b4 { background: #4d96ff; }
+.b5 { background: #b388eb; }
