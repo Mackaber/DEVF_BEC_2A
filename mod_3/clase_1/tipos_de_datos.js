@@ -22,4 +22,4 @@ null
 // Undefined
 undefined
 
-console.log(typeof "Esto es un string")disc
+console.log(typeof "Esto es un string")
