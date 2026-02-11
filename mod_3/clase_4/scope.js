@@ -1,20 +1,22 @@
-let persona = "Juan"
+let persona = "Juan";
 
 function escuela() {
     let estudiante = "Carlos";
 
-    console.log(persona)
-    console.log(estudiante)
+    console.log(persona);
+    console.log(estudiante);
 }
 
-escuela()
+escuela();
 //console.log(estudiante)
 
 
 let x = 1;
 function myFunc() {
     let x = 2;
-    console.log(x) // 2
+    console.log(x); // 2
+
+    return x;
 }
-myFunc() 
-console.log(x) // 1
+let myvar = myFunc() + myFunc();
+console.log(myvar); // 1
