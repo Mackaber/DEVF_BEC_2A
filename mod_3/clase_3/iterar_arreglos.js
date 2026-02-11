@@ -1,7 +1,7 @@
 console.log("Usando for----------------");
 const animales = ["🐶", "🐱", "🐰", "🦁"];
 
-for (let i = 0; i < animales.length; i++) {
+for (i = 0; i < animales.length; i++) {
     console.log(animales[i]);
     console.log(i);
 }
