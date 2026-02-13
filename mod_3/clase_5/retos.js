@@ -72,14 +72,29 @@ const tierra = {
     }
     console.log(`Continentes: ${continentes_list}`)
 
+    return 
     //console.log(`Continentes: ${Object.keys(this.continentes)}`)
   },
 
-  paises() {},
+  paises() { continentes_list
+        for (pais in this.paises()) {
+        
+        }   
+  },
 
-  estados() {},
+  estados() {
+    for(pais in this.paises()) {
+        pais.estados
+    }
+  },
 
-  ciudades() {},
+  ciudades() {
+    for (continente in this.continentes) {
+        for (pais in this.continente) {
+            pais["estados"]
+        }   
+    }
+  },
 };
 
 // Imprimir de la siguiente forma
