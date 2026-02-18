@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div>
+        <!-- Salida de Password -->
+        <p id="generated_password">PASSWORD</p>
+    </div>
+    <div class="form">
+        <!-- Salida que indica el largo de la contraseña -->
+        <p>Character Length <span>10</span></p>
+
+        <!-- Slider -->
+        <input id="password_range" type="range" min="0" max="20"/>
+
+        <!-- Incluir Mayusculas -->
+        <div>
+            <input id="uppercase_checkbox" type="checkbox" /> <span>Include Uppercase Letters</span>
+        </div>
+
+        <!-- Incluir Numeros -->
+        <div>
+            <input id="numbers_checkbox" type="checkbox" /> <span>Include Numbers</span>
+        </div>
+
+        <!-- Incluir Simbolos -->
+        <div>
+            <input id="symbols_checkbox" type="checkbox" /> <span>Include Symbols</span>
+        </div>
+
+        <div>
+            Strength <span>LEVEL</span>
+        </div>
+
+        <button id="generate_btn">Generate -> </button>
+    </div>
+
+
+    <script src="./script.js"></script>
+</body>
+</html>
