@@ -10,7 +10,7 @@ let obj =  {
 // Ejemplo
 
 let persona = {
-    nombre:  "Mackaber",
+    nombre: "Mackaber",
     edad: 35,
     profesion: "Programador",
     tel: 44671555
