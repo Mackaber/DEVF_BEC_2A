@@ -1,0 +1,2 @@
+Un string de ejemplo ññññ
+Otra linea en el mismo archivo
