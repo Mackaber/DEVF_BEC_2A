@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form id="product_form">
+        ID: <input type="text" name="ID"><br>
+        Product <input type="text" name="Product"><br>
+        Price <input type="text" name="Price"><br>
+        Qty <input type="text" name="Qty"><br>
+        <input type="submit" value="Submit">
+    </form>
+
+
+    <h3>Distintos tipos de input...</h3>
+    <form>
+        Texto: <input type="text" name="texto"><br>
+        Contraseña: <input type="password" name="password"><br>
+        Correo: <input type="email" name="email"><br>
+        Número: <input type="number" name="number"><br>
+        Fecha: <input type="date" name="date"><br>
+        Color: <input type="color" name="color"><br>
+        Área de texto: <textarea name="textarea" rows="4"></textarea><br>
+        <h4>Sobre un mismo valor...</h4>
+        Checkbox: 1<input type="checkbox" name="checkbox_1"><br>
+        Checkbox: 2<input type="checkbox" name="checkbox_2"><br>
+        Radio: 1<input type="radio" name="radio" value="option1"><br>
+        Radio: 2<input type="radio" name="radio" value="option2"><br>
+        <input type="submit" value="Submit">
+    </form>
+
+    <h3>Validación</h3>
+    <form id="validation_form">
+        Nombre: <input type="text" name="name"><br>
+        Telefono: <input type="text" name="phone"><br>
+        E-mail: <input type="email" name="email"><br>
+        <input type="submit" value="Submit"> 
+    </form>
+
+    <script src="https://cdn.jsdelivr.net/npm/axios@1.15.2/dist/axios.min.js"></script>
+    <script src="./script.js"></script>
+</body>
+</html>
