@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zod form Validation</title>
+</head>
+<body>
+    <h1>Validación de formularios con zod</h1>
+    <form id="user_form">
+        Ingresa tu nombre <input name="nombre" /> <br>
+        <p style="display:none;color:red" id="nombre_error"></p><br>
+        Ingresa tu edad <input name="edad" /> <br>
+        <p style="display:none;color:red" id="edad_error"></p><br>
+        Ingresa tu email <input name="email" /> <br>
+        <p style="display:none;color:red" id="email_error"></p><br>
+        Ingresa tu celular <input name="celular" /> <br>
+        <p style="display:none;color:red" id="celular_error"></p><br>
+        <input type="submit" value="Enviar">
+    </form>
+    <!-- Si queremos usar import dentro de nuestro script, necesitamos especificar module -->
+    <script type="module" src="script.js"></script>
+</body>
+</html>
