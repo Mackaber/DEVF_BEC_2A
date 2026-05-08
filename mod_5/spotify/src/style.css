@@ -1,0 +1,60 @@
+* {
+  font-family: 'Courier New', Courier, monospace;
+  color: #FFF;
+  background-color: rgb(32, 32, 32);
+}
+
+nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#logo {
+  width: 50px;
+  height: 50px;
+}
+
+#avatar {
+  width: 50px;
+  height: 50px;
+}
+
+.center-bar {
+  width: 200px;
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: row;
+}
+
+#podcasts-header {
+  display: flex;
+  flex-direction: column;
+  font-size: 80px;
+  height: 380px;
+  background-color: rgb(127, 197, 127);
+  position: relative;
+}
+
+#podcasts-header h1 {
+  margin: 0;
+  justify-self: end;
+  bottom: 0px;
+  position: absolute;
+  background-color: transparent;
+}
+
+#items {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.item {
+  width: 200px;
+}
+
+.item img {
+    border-radius: 10px;
+}
