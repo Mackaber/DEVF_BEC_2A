@@ -1,0 +1,5 @@
+#padre {
+    border: solid 3px black;
+    min-height: 200px;
+    min-width: 200px;
+}
