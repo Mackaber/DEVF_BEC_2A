@@ -1,0 +1,93 @@
+* {
+  font-family: 'Courier New', Courier, monospace;
+  color: #FFF;
+  background-color: rgb(53, 53, 53);
+}
+
+nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(32, 32, 32);
+}
+
+#logo {
+  width: 50px;
+  height: 50px;
+}
+
+#avatar {
+  width: 50px;
+  height: 50px;
+}
+
+.center-bar {
+  width: 200px;
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: row;
+}
+
+#podcasts-header {
+  display: flex;
+  flex-direction: column;
+  font-size: 80px;
+  height: 380px;
+  background-color: rgb(127, 197, 127);
+  position: relative;
+}
+
+#podcasts-header h1 {
+  margin: 0;
+  justify-self: end;
+  bottom: 0px;
+  position: absolute;
+  background-color: transparent;
+}
+
+#items {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.item {
+  width: 200px;
+}
+
+.item img {
+    width: 200px;
+    border-radius: 10px;
+}
+
+.sidebar {
+  min-height: 80vh;
+}
+
+.content {
+  background-color: rgb(18, 18, 18);
+  flex-grow: 1;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+}
+
+.controls {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  min-height: 12vh;
+}
+
+.albumFlex {
+  display: flex;
+  flex-direction: row;
+}
+
+.trackList {
+  margin: 10px;
+}
